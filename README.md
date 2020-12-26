@@ -37,6 +37,12 @@ Inside the folder, create a file called **config.json**
     }
 }
 ```
+
+## Run the application:
+```bash
+email-sender-service --configFile=config.json
+
+```
 ## Setup the RabbitMQ via Docker
 Install the docker app in your computer.
 Add the RabbitMQ docker: 
