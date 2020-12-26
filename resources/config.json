@@ -1,0 +1,18 @@
+{
+    "Queue": {
+        "Host": "amqp://guest:guest@localhost:5672/",
+        "Name": "EMAIL_SENDER_QUEUE"    
+    },
+    "SMTP": {
+        "Host": "smtp.gmail.com",
+        "Port": 587,
+        "From": "your_email@gmail.com",
+        "Password": "your_app_password"
+    },
+    "Application": {
+        "LogFile": "./application.log",
+        "TemplateDir": "./templates/",
+        "TemplateOnError": "error_message.html",
+        "SendEmailOnError": false
+    }
+}
